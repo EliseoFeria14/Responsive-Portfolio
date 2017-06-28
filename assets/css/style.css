@@ -6,7 +6,8 @@
 	position:absolute;
 }
 h1{
-	font-size: 33px;
+	height: 40px;
+	font-size: 36px;
 	margin-top: 24px;
 	width: 200px;
 	background-color: #4aaaa5;
@@ -51,8 +52,8 @@ body{ background-image: url("../images/concrete-texture.png")
 	height: 50px;
 	border-bottom-style: solid;
 	border-color: #cccccc;
-	
-	font-size: 22px
+	padding-top: 20px;
+	font-size: 22px;
 }
 .paragraphstyle {
 	padding:0px 20px 20px 20px;
@@ -67,13 +68,14 @@ aside{
 	margin-top:20px;
 	background-color: #ffffff;
 	position: relative;
-	bottom: 350px;
+	bottom: 730px;
 }
 /*profile image*/
 .Portfolioimg{
-	width: 160px;
-	height: 160px;
-	float:left;
+	width: auto;
+	height: auto;
+	margin-left:90px;
+	padding-bottom: 20px;
 	padding:0px 20px;
 }
 /*icons*/
@@ -87,13 +89,14 @@ a img{
 	padding-bottom: 20px
 }
 /*footer*/
+.content {
+	height: auto;
+
+
+}
 footer {
 	height:20px;
 	width: 970px;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
 	background-color: #666666;
 	text-align: center;
 	color: #ffffff;
@@ -101,10 +104,12 @@ footer {
 	border-top-style: solid;
 	border-color: #4aaaa5;
 	border-width: 10px;
+	margin-top:100px;
 }
 /*form page style*/
 .formformat{
 	width: 970px
+	height: auto;
 }
 form{
 	float:left;
@@ -151,8 +156,8 @@ input[type=button], input[type=sumbit], input[type=send]{
 img{
 	margin-left: 30px;
 	position: relative;
-	height: 150px;
-	width: : 150px;
+	height: 350px;
+	width: : 350px;
 }
 .picturelabel{
 	font-size: 22px;
@@ -171,7 +176,7 @@ img{
 	float:left;
 }
 .portfolioicons{
-	height: 700px;
+	height: 1950px;
 	width: 650px;
 	background-color:#ffffff;
 	margin-left: 30px;
@@ -186,6 +191,148 @@ img{
 	margin-top: 40px;
 	background-color#ffffff;
 	position: relative;
-	bottom: 740px;
+	bottom: 1990px;
 
+}
+
+@media only screen and (max-width: 960px){
+}
+
+@media only screen and (max-width: 768px){
+		.content{
+			height: 800px;
+			width: 50%;
+		}
+		.mainheader{
+			width: 750px;
+		}
+		.aboutme{
+			height:auto;
+			width: 750px;
+			margin-left:0px;
+		}
+		.Portfolioimg{
+			float: left;
+			height: 200px;
+			width: 250px;
+			margin-left: 0px;
+		}
+		article {
+			width: 750px;
+			height: auto;
+		}
+		aside{
+			height: 100%;
+			width:100%;
+			bottom:-50px;
+			left:100px;
+
+		}
+		footer{
+			width: 750px;
+		}
+
+		textarea{
+			height: 200px;
+		}
+		img{
+			height: 170px;
+			width: 250px;
+		}
+		.portfolioicons{
+			height: 670px;
+		}
+		.row2 {
+			float:left;
+			position: relative;
+			bottom: 29px;
+		}
+		.social3{
+			bottom:40px;
+		}
+
+}
+@media only screen and (max-width: 640px){
+	.content{
+		width: 630px;
+		height:1000px;
+	}
+	.mainheader{
+		background-color: transparent;
+		width: 630px;
+		height: 100px;
+	}
+	h1{
+		width:630px;
+		font-size: 30px;
+		text-align: center;
+		margin-left: 0px;
+	}
+	.miniheader{
+		margin:0px;
+		height: 40px;
+		width: 202px;
+		font-size: 20px;
+		text-align:center;
+	}
+	.aboutme {
+		width: 630px;
+		height: 600px;
+		margin-left: 0px;
+		margin-top: 100px;
+	}
+	.Headercolor{
+		padding-top: 0px;
+	}
+	.Portfolioimg {
+		height: 300px;
+		width: 300px;
+		left: 130px;
+		margin-bottom: 0px;
+		float: none;
+	}
+	aside {
+		width: 270px;
+		left: -200px;
+	}
+	footer {
+		width: 630px;
+	}
+	form {
+		width: 630px;
+		margin-top: 100px;
+		margin-left: 0px;
+	}
+	.social2{
+		right: 170px;
+	}
+	.content2{
+		height: 2800px;
+	}
+	.portfolioicons{
+		margin-left: 0px;
+		width: 630px;
+		position: relative;
+		top: 50px;
+		height: 2450px;
+	}
+	img {
+		height: 440px;
+		width: 480px;
+		left: 40px;
+	}
+	.row2{
+		position: relative;
+		top: 10px;
+	}
+	.picturelabel{
+		font-size: 38px;
+		position: relative;
+		bottom: 40px;
+		left: 40px;
+		width: 480px;
+	}
+	.social3{
+		top: 50px;
+	}
 }
